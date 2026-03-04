@@ -1,0 +1,30 @@
+1 - O (1)
+Por ser apenas uma interação o tempo sempre será constante independentemente do tamanho da lista.
+
+2- 0 (n)
+Aqui ele fara as interação conforme o tamanho da lista.
+
+3- 0 (log n)
+Aqui a cada interação ele divide a quantidade de operações pela metade.
+
+4- 0 (n²)
+Aqui por ter um for aninhado ele acaba crescendo de uma maneira quadrática. 
+
+5- 0 (n²)
+Aqui é O(n²) devido que esse ser o pior caso encontrado nesse algoritmo.
+
+6- 0 (log n)
+Como a variável de controle i dobra a cada passo (i *= 2), o número de iterações necessárias para alcançar n é proporcional ao logaritmo de n na base 2.
+
+7- 0 (2ⁿ)
+Cresce exponencialmente por causa dessa recursividade, a cada chamada gera duas novas chamadas.
+
+8- 0(n²)
+2 for aninhados.
+
+9- 0(n³)
+3 for aninhados.
+
+10- O(n log n)
+
+O algoritmo divide a lista recursivamente pela metade até atingir o caso base, o que caracteriza uma complexidade de altura log n. Para cada nível dessa divisão, é realizada uma operação de intercalação (merge) que percorre os n elementos, resultando em uma complexidade total de O(n log n).
